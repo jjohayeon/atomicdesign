@@ -21,9 +21,7 @@ export default function Input({ className, onChange }) {
     <styledComp.InputBox
       className={className}
       placeholder={"Enter Keyword"}
-      onChange={(e) => {
-        onChange(e.target.value);
-      }}
+      onChange={(e) => onChange(e.target.value)}
     />
   );
 }
